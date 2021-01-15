@@ -1,5 +1,7 @@
 package com.xunjia.Dao;
 
-public interface StudentDao {
+import com.xunjia.pojo.Student;
 
+public interface StudentDao {
+    public int saveStudent(Student student);
 }
